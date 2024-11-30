@@ -62,7 +62,7 @@ li a { /* Targets individual links in nav links list */
 
 .hero img {
     border-radius: 50%;
-    border: 5px solid #048eaa;;
+    border: 5px solid #048eaa;
     margin: 20px 0;
     position: relative;
     z-index: 2;
@@ -96,3 +96,47 @@ li a { /* Targets individual links in nav links list */
     box-sizing: border-box;
     padding: 10px;
 }
+
+/* Info Section style */
+
+.info {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    padding: 50px 30px;
+    background-color: #f0f0f0;
+}
+
+.dog-info {
+    text-align: center;
+
+}
+
+.dog-info img{
+    border-radius: 50%;
+    border: 5px solid #048eaa;;
+    width: 150px;
+    height: 150px;
+}
+
+.dog-info h2 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.dog-info p {
+    font-size: 1em;
+    margin: 10px 0;
+    text-align: left;
+}
+
+.dog-info button {
+    padding: 10px 20px;
+    background-color: #048eaa;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 100%;
+}
+
