@@ -138,3 +138,28 @@ li a { /* Targets individual links in nav links list */
     margin-top: 10px;
     width: 100%;
 }
+
+/* Footer Section style */
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #048eaa;
+    padding: 40px;
+}
+
+footer p {
+    color: #ffffff;
+}
+
+footer .social-links {
+    display: flex;
+    gap: 15px;
+}
+
+footer img {
+    width: 35px;
+    height: 35px;
+    margin-top: 10px;
+}
